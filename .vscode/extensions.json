@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "vue.volar",
-    "EditorConfig.EditorConfig"
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode"
   ]
 }
