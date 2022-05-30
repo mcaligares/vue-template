@@ -40,7 +40,12 @@
         "normal": "never",
         "component": "always"
       }
-    }]
+    }],
+    "vue/multi-word-component-names": ["error", {
+      "ignores": []
+    }],
+    "vue/component-definition-name-casing": ["error", "kebab-case"],
+    "vue/padding-line-between-blocks": ["error", "always"]
   },
   "ignorePatterns": ["./node_modules", "**/dist/**", "**/vendor/*.js"]
 }
