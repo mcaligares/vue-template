@@ -16,8 +16,8 @@
 </template>
 
 <style lang="scss">
-  @import '../styles/tools/mixins.scss';
-  @import '../styles/settings/variables.scss';
+  @import '@/styles/tools/mixins.scss';
+  @import '@/styles/settings/variables.scss';
 
   $card-width: 200px !default;
 

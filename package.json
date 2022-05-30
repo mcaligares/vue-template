@@ -9,9 +9,11 @@
     "lint": "eslint . --ext .js,.ts,.vue"
   },
   "dependencies": {
+    "pinia": "^2.0.14",
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@types/node": "^17.0.36",
     "@typescript-eslint/eslint-plugin": "5.12.1",
     "@vitejs/plugin-vue": "^2.3.1",
     "eslint": "^8.15.0",

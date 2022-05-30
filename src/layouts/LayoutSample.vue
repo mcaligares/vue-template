@@ -15,7 +15,7 @@
 </template>
 
 <style lang="scss">
-  @import '../styles/tools/mixins.scss';
+  @import '@/styles/tools/mixins.scss';
 
   .layout-sample {
     height: 100vh;
