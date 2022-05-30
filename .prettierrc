@@ -1,7 +1,9 @@
 {
   "singleQuote": true,
-  "semi": false,
   "trailingComma": "all",
-  "arrowParens": "always",
-  "printWidth": 90
+  "singleAttributePerLine": true,
+  "vueIndentScriptAndStyle": true,
+  "semi": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false
 }
