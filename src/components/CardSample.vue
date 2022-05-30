@@ -24,7 +24,6 @@
   .card-sample {
     padding: 20px;
     width: $card-width;
-    text-align: center;
     background-color: $color-light-blue;
     &__header {
       @include font(300, 22px);

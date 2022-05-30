@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 
 const useGlobalStore = defineStore('GlobalStore', {
   state: () => ({
-    appName: 'Vue Template',
+    appName: import.meta.env.VITE_APP_NAME,
   }),
 });
 
