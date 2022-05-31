@@ -15,14 +15,13 @@
     "cy:ct": "cypress open-ct",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,ts,vue}": "eslint --fix"
-  },
   "dependencies": {
     "pinia": "^2.0.14",
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
     "@cypress/vite-dev-server": "^2.2.3",
     "@cypress/vue": "^3.1.2",
     "@types/node": "^17.0.36",
