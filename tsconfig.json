@@ -15,9 +15,10 @@
     "useDefineForClassFields": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["cypress"]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/**/*.(ts|js)", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["dist", "node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
