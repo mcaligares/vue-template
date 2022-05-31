@@ -7,11 +7,16 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.ts,.vue",
+    "lint:fix": "eslint --fix . --ext .js,.ts,.vue",
     "test": "npm run test:unit && npm run test:e2e",
     "test:unit": "cypress run-ct",
     "test:e2e": "concurrently -k -n server,cypress \"npm:dev\" \"cypress run\"",
     "cy": "cypress open",
-    "cy:ct": "cypress open-ct"
+    "cy:ct": "cypress open-ct",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix"
   },
   "dependencies": {
     "pinia": "^2.0.14",
@@ -30,6 +35,8 @@
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.7.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.3",
     "minireset.css": "^0.0.7",
     "prettier": "2.6.2",
     "sass": "^1.52.1",
