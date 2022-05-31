@@ -1,6 +1,6 @@
 import { mount } from '@cypress/vue';
 import { setActivePinia, createPinia } from 'pinia';
-import App from './App.vue';
+import App from '@/App.vue';
 
 describe('Test App component', () => {
 

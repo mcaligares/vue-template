@@ -4,6 +4,6 @@
     "outDir": "./dist",
     "types": ["cypress"]
   },
-  "include": ["**/*.spec.*"],
+  "include": ["**/*.spec.*", "../src/**/*.ts", "../src/**/*.js", "../src/**/*.vue"],
   "extends": "../tsconfig.json"
 }

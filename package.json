@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix . --ext .js,.ts,.vue",
     "test": "npm run test:unit && npm run test:e2e",
     "test:unit": "cypress run-ct",
-    "test:e2e": "concurrently -k -n server,cypress \"npm:dev\" \"cypress run\"",
+    "test:e2e": "concurrently -s \"first\" -kn server,cypress \"npm:dev\" \"cypress run\"",
     "cy": "cypress open",
     "cy:ct": "cypress open-ct",
     "prepare": "husky install"

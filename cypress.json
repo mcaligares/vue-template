@@ -4,7 +4,7 @@
     "**/*.spec.js",
     "**/*.spec.ts"
   ],
-  "componentFolder": "src",
+  "componentFolder": "tests",
   "screenshotOnRunFailure": false,
   "video": false
 }
